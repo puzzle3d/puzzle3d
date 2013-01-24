@@ -1,0 +1,44 @@
+﻿La génération a démarré 12/10/2012 09:30:01.
+     1>Projet "D:\Documents\Google Drive\Polytech\5A\Projet R&D\Projet\puzzle3d\puzzle3d\puzzle3d.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release\puzzle3d.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp OpenGLContext.cpp OpenUtility\Utility\3D\3D.cpp OpenUtility\Utility\3D\CShaderFile.cpp OpenUtility\Utility\3D\CShaderProgram.cpp OpenUtility\Utility\Exception.cpp OpenUtility\Utility\Math\CBezierCurve.cpp OpenUtility\Utility\Mem.cpp OpenUtility\Utility\Stream\CBlockStream.cpp OpenUtility\Utility\Stream\CGalStream.cpp OpenUtility\Utility\Stream\CStream.cpp
+         main.cpp
+     1>d:\documents\google drive\polytech\5a\projet r&d\projet\puzzle3d\puzzle3d\OpenGLContext.h(3): fatal error C1083: Impossible d'ouvrir le fichier include : 'GL/glew.h' : No such file or directory
+         OpenGLContext.cpp
+     1>d:\documents\google drive\polytech\5a\projet r&d\projet\puzzle3d\puzzle3d\OpenGLContext.h(3): fatal error C1083: Impossible d'ouvrir le fichier include : 'GL/glew.h' : No such file or directory
+         3D.cpp
+         CShaderFile.cpp
+     1>OpenUtility\Utility\3D\CShaderFile.cpp(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'GL/glew.h' : No such file or directory
+         CShaderProgram.cpp
+     1>OpenUtility\Utility\3D\CShaderProgram.cpp(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'GL/glew.h' : No such file or directory
+         Exception.cpp
+         CBezierCurve.cpp
+         Mem.cpp
+         CBlockStream.cpp
+     1>OpenUtility\Utility\Stream\CBlockStream.cpp(411): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>OpenUtility\Utility\Stream\CBlockStream.cpp(429): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>OpenUtility\Utility\Stream\CBlockStream.cpp(448): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>OpenUtility\Utility\Stream\CBlockStream.cpp(466): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+         CGalStream.cpp
+     1>OpenUtility\Utility\Stream\CGalStream.cpp(275): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'sprintf'
+         CStream.cpp
+     1>OpenUtility\Utility\Stream\CStream.cpp(442): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>OpenUtility\Utility\Stream\CStream.cpp(459): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>OpenUtility\Utility\Stream\CStream.cpp(477): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>OpenUtility\Utility\Stream\CStream.cpp(494): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : voir la déclaration de 'vsprintf'
+     1>Génération du projet "D:\Documents\Google Drive\Polytech\5A\Projet R&D\Projet\puzzle3d\puzzle3d\puzzle3d.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:05.35

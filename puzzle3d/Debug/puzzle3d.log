@@ -1,0 +1,54 @@
+﻿La génération a démarré 24/01/2013 16:54:37.
+     1>Projet "D:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\puzzle3d.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\puzzle3d.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Monde.cpp
+         Monde.cpp
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\piece.h(25): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\piece.h(25): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\piece.h(25): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(252): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(276): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(276): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(276): warning C4244: 'argument' : conversion de 'double' en 'int', perte possible de données
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(249): warning C4101: 'old_y' : variable locale non référencée
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(249): warning C4101: 'old_z' : variable locale non référencée
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(249): warning C4101: 'old_x' : variable locale non référencée
+     1>d:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\monde.cpp(306): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+       ManifestResourceCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\pred_final\puzzle3d-master\puzzle3d-master\Debug\puzzle3d.exe" /INCREMENTAL /NOLOGO glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\puzzle3d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\pred_final\puzzle3d-master\puzzle3d-master\Debug\puzzle3d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\pred_final\puzzle3d-master\puzzle3d-master\Debug\puzzle3d.lib" /MACHINE:X86 Debug\puzzle3d.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\MainWindow.obj
+         Debug\Monde.obj
+         Debug\OpenGLContext.obj
+         Debug\3D.obj
+         Debug\CShaderFile.obj
+         Debug\CShaderProgram.obj
+         Debug\Exception.obj
+         Debug\FileHandling.obj
+         Debug\CBezierCurve.obj
+         Debug\Mem.obj
+         Debug\CBlockStream.obj
+         Debug\CGalStream.obj
+         Debug\CStream.obj
+         Debug\Piece.obj
+         Debug\Shader.obj
+         Debug\Statistique.obj
+         Debug\wiimote.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\puzzle3d.exe.embed.manifest" /manifest Debug\puzzle3d.exe.intermediate.manifest
+         Toutes les sorties sont à jour.
+       LinkEmbedManifest:
+         Toutes les sorties sont à jour.
+         puzzle3d.vcxproj -> D:\pred_final\puzzle3d-master\puzzle3d-master\Debug\puzzle3d.exe
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\puzzle3d.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\puzzle3d.lastbuildstate".
+     1>Génération du projet "D:\pred_final\puzzle3d-master\puzzle3d-master\puzzle3d\puzzle3d.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.46

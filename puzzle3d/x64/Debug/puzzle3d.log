@@ -1,0 +1,33 @@
+﻿La génération a démarré 27/09/2012 17:22:09.
+     1>Projet "C:\predpuzzle3d\Projet\puzzle3d\puzzle3d\puzzle3d.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "x64\Debug\puzzle3d.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt main.cpp OpenGLContext.cpp
+         OpenGLContext.cpp
+     1>OpenGLContext.cpp(53): warning C4800: 'BOOL' : valeur forcée à la valeur booléenne 'true' ou 'false' (avertissement sur les performances)
+         main.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\predpuzzle3d\Projet\puzzle3d\x64\Debug\puzzle3d.exe" /INCREMENTAL /NOLOGO glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\puzzle3d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\predpuzzle3d\Projet\puzzle3d\x64\Debug\puzzle3d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\predpuzzle3d\Projet\puzzle3d\x64\Debug\puzzle3d.lib" /MACHINE:X64 x64\Debug\puzzle3d.exe.embed.manifest.res
+         x64\Debug\main.obj
+         x64\Debug\OpenGLContext.obj
+     1>main.obj : error LNK2019: symbole externe non résolu "public: void __cdecl OpenGLContext::reshapeWindow(int,int)" (?reshapeWindow@OpenGLContext@@QEAAXHH@Z) référencé dans la fonction "__int64 __cdecl WndProc(struct HWND__ *,unsigned int,unsigned __int64,__int64)" (?WndProc@@YA_JPEAUHWND__@@I_K_J@Z)
+     1>main.obj : error LNK2019: symbole externe non résolu "public: void __cdecl OpenGLContext::renderScene(void)" (?renderScene@OpenGLContext@@QEAAXXZ) référencé dans la fonction WinMain
+     1>main.obj : error LNK2019: symbole externe non résolu "public: void __cdecl OpenGLContext::setupScene(void)" (?setupScene@OpenGLContext@@QEAAXXZ) référencé dans la fonction WinMain
+     1>OpenGLContext.obj : error LNK2019: symbole externe non résolu __imp_wglDeleteContext référencé dans la fonction "public: __cdecl OpenGLContext::~OpenGLContext(void)" (??1OpenGLContext@@QEAA@XZ)
+     1>OpenGLContext.obj : error LNK2019: symbole externe non résolu __imp_wglMakeCurrent référencé dans la fonction "public: __cdecl OpenGLContext::~OpenGLContext(void)" (??1OpenGLContext@@QEAA@XZ)
+     1>OpenGLContext.obj : error LNK2019: symbole externe non résolu __imp_glGetIntegerv référencé dans la fonction "public: bool __cdecl OpenGLContext::create30Context(struct HWND__ *)" (?create30Context@OpenGLContext@@QEAA_NPEAUHWND__@@@Z)
+     1>OpenGLContext.obj : error LNK2001: symbole externe non résolu __imp___wglewCreateContextAttribsARB
+     1>OpenGLContext.obj : error LNK2019: symbole externe non résolu __imp_wglewIsSupported référencé dans la fonction "public: bool __cdecl OpenGLContext::create30Context(struct HWND__ *)" (?create30Context@OpenGLContext@@QEAA_NPEAUHWND__@@@Z)
+     1>OpenGLContext.obj : error LNK2019: symbole externe non résolu __imp_glewInit référencé dans la fonction "public: bool __cdecl OpenGLContext::create30Context(struct HWND__ *)" (?create30Context@OpenGLContext@@QEAA_NPEAUHWND__@@@Z)
+     1>OpenGLContext.obj : error LNK2019: symbole externe non résolu __imp_wglCreateContext référencé dans la fonction "public: bool __cdecl OpenGLContext::create30Context(struct HWND__ *)" (?create30Context@OpenGLContext@@QEAA_NPEAUHWND__@@@Z)
+     1>C:\predpuzzle3d\Projet\puzzle3d\x64\Debug\puzzle3d.exe : fatal error LNK1120: 10 externes non résolus
+     1>Génération du projet "C:\predpuzzle3d\Projet\puzzle3d\puzzle3d\puzzle3d.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:02.25

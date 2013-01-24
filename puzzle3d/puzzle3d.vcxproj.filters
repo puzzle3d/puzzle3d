@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility">
+      <UniqueIdentifier>{4a68ae10-5c7c-4949-ba33-a4da9b8775f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OpenUtility">
+      <UniqueIdentifier>{f635c8e7-b540-4b0e-a854-aa6b923e44e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility\Utility">
+      <UniqueIdentifier>{628e363b-a0ae-4a9d-b987-5bc4c3f70dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility\Utility\3D">
+      <UniqueIdentifier>{622c4a92-a21d-4510-8782-44a8e9d7e2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility\Utility\Math">
+      <UniqueIdentifier>{83876611-1cd9-4119-a937-7d200dd6018d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility\Utility\Stream">
+      <UniqueIdentifier>{b52dea5c-ecb0-4ade-9da4-dd9cbea98307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility\Template">
+      <UniqueIdentifier>{edb16de3-c8b8-43a6-b463-046e0cd52765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OpenUtility\Utility">
+      <UniqueIdentifier>{d5cf0c9a-52dc-4898-84db-3ec832685237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OpenUtility\Utility\3D">
+      <UniqueIdentifier>{5e4fb76b-fe74-48e3-9f0c-552cda87d33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OpenUtility\Utility\Math">
+      <UniqueIdentifier>{b1fb7e17-ed86-43dc-8740-192dc01d7371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OpenUtility\Utility\Stream">
+      <UniqueIdentifier>{df253d1c-18a6-4092-9556-cb5b9adce7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\OpenUtility\Utility\FileSystem">
+      <UniqueIdentifier>{fe92f9b8-dc3c-49eb-9ee2-add927e44b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\OpenUtility\Utility\Filesystem">
+      <UniqueIdentifier>{1afad39c-8117-407e-8a0c-1d8a68aa7552}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLContext.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Exception.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Mem.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\3D\3D.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\3D\CShaderFile.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\3D\CShaderProgram.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Math\CBezierCurve.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Stream\CBlockStream.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Stream\CGalStream.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Stream\CStream.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenUtility\Utility\Filesystem\FileHandling.cpp">
+      <Filter>Fichiers sources\OpenUtility\Utility\Filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Monde.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistique.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="wiimote.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OpenGLContext.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\CodeErreur.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\Memory.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\3D\3D.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\3D\CShaderFile.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\3D\CShaderProgram.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\Math\CBezierCurve.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\Stream\Stream.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CAllocator.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CContenerInterface.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CListe.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CMap.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CMat4x4.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CTable.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Template\CVector.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenUtility\Utility\Filesystem\FileHandling.h">
+      <Filter>Fichiers d%27en-tête\OpenUtility\Utility\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Monde.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistique.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="wiimote_state.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="wiimote_common.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="wiimote.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
